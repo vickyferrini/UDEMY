@@ -5,6 +5,40 @@
     --aqua:99FEFF;
 
 }
+
+body{
+    margin: 0;
+}
+
 h1{
-    color: #94DAFF;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    display: flex;
+}
+h2{
+    margin-top: 0;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    display: flex;
+}
+h3{
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    left: 200px;
+    bottom: 200px;
+    
+}
+
+.top-container{
+    background-color: white;
+}
+
+.foto-carnet {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 800px;
 }
