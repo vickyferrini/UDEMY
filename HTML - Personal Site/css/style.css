@@ -10,35 +10,54 @@ body{
     margin: 0;
 }
 
-h1{
-    position: relative;
-    left: 200px;
-    bottom: 200px;
-    display: flex;
-}
-h2{
-    margin-top: 0;
-    position: relative;
-    left: 200px;
-    bottom: 200px;
-    display: flex;
-}
-h3{
-    margin-top: 0;
-    position: relative;
-    display: flex;
-    left: 200px;
-    bottom: 200px;
-    
-}
 
 .top-container{
     background-color: white;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    
+}
+
+.top-container__content{
+    display: flex;
+    
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center; 
+    padding: 4rem;
+}
+
+.top-container__background {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 .foto-carnet {
     position: relative;
     width: 400px;
-    height: 400px;
-    left: 800px;
+    display: flex;
+    align-self: flex-end;
+    left:500px;
+
+}
+
+.cuadrado {
+    opacity: 20%;  
+    width: 40%; 
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}
+
+.cruces {
+    width: 30%;
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
+    
 }
